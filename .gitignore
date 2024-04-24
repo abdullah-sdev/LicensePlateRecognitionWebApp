@@ -1,0 +1,78 @@
+# Ignore Python virtual environment
+venv38/
+
+# Ignore compiled Python files
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore logs
+*.log
+
+# Temporary files
+*.swp
+*~
+
+# Environment variables file
+.env
+
+# Neural Network weights -----------------------------------------------------------------------------------------------
+*.weights
+*.pt
+*.pb
+*.onnx
+*.engine
+*.mlmodel
+*.torchscript
+*.tflite
+*.h5
+*_saved_model/
+*_web_model/
+*_openvino_model/
+*_paddle_model/
+darknet53.conv.74
+yolov3-tiny.conv.15
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Dependencies
+/yolov5/.git
+/yolov5/__pycache__/
+/yolov5/build/
+/yolov5/dist/
+/yolov5/env/
+/yolov5/__init__.pyc
+/yolov5/*.pyc
+/yolov5/*.pyo
+/yolov5/*.pyd
+
+
+#files stored auto
+/static/*.jpg
+/static/faces/cropped/
+/static/faces/detected/
+/static/predict/rexs/
+/static/predict/roi/
+/static/predict/upload/
+/numberplate_reader3/runs/rexs1/*.jpg
+/numberplate_reader3/runs/rexs/*.jpg
+/numberplate_inference/runs/rexs/*.jpg
+/numberplate_inference/runs/rexs1/*.jpg
+/static/roi/*.jpg
+/static/roi/*.jpeg
+/static/upload/*.jpg
+/static/upload/*.JPG
+/static/upload/*.jpeg
+/static/predict/*.jpeg
