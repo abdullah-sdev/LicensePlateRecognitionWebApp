@@ -14,7 +14,7 @@ import glob
 import os
 import re
 
-model_path = 'yolov5/models/best.pt'
+model_path = 'models/best.pt'
 # Load the pre-trained YOLOv5 model
 model = torch.hub.load('yolov5', 'custom', path=model_path, source='local')
 reader = easyocr.Reader(['en'])

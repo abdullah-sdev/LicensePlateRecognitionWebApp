@@ -1,5 +1,6 @@
 # Ignore Python virtual environment
 venv38/
+venv/
 
 # Ignore compiled Python files
 # Python specific
@@ -61,11 +62,11 @@ yolov3-tiny.conv.15
 
 #files stored auto
 /static/*.jpg
-/static/faces/cropped/
-/static/faces/detected/
-/static/predict/rexs/
-/static/predict/roi/
-/static/predict/upload/
+/static/faces/cropped/*.jpg
+/static/faces/detected/*.jpg
+/static/predict/rexs/*.jpg
+/static/predict/roi/*.jpg
+/static/predict/upload/*.jpg
 /numberplate_reader3/runs/rexs1/*.jpg
 /numberplate_reader3/runs/rexs/*.jpg
 /numberplate_inference/runs/rexs/*.jpg
@@ -76,3 +77,8 @@ yolov3-tiny.conv.15
 /static/upload/*.JPG
 /static/upload/*.jpeg
 /static/predict/*.jpeg
+
+/static/predict/*.jpg
+/static/predict/*.png
+/static/upload/*.jpg
+/static/upload/*.png
