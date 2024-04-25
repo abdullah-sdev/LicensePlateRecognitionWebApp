@@ -97,7 +97,7 @@ Now, you can use your web browser to access the application at `http://localhost
 
 Check out the video tutorial for a step-by-step guide on how to use the License Plate and Face Recognition Web App:
 
-[![Video Tutorial](fypsubmission/VideoGuide.mp4)
+[![Video Tutorial](fypsubmission/VideoGuide.mp4)](fypsubmission/VideoGuide.mp4)
 
 ## Dependencies
 
