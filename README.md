@@ -93,6 +93,12 @@ Now, you can use your web browser to access the application at `http://localhost
 ![Screenshot 1](/static/predict/DSC_0453.jpg)
 <!-- ![Screenshot 2](/screenshots/screenshot2.png) -->
 
+## Video Tutorial
+
+Check out the video tutorial for a step-by-step guide on how to use the License Plate and Face Recognition Web App:
+
+[![Video Tutorial](fypsubmission/VideoGuide.mp4)
+
 ## Dependencies
 
 - Python 3.8
