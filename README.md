@@ -22,23 +22,71 @@ This Python project utilizes YOLOv5 for license plate detection and face recogni
     cd LicensePlateRecognitionWebApp
     ```
 
-3. Install dependencies:
+3. Create a virtual environment:
+
+    ```bash
+    python -m venv venv
+    ```
+
+4. Activate the virtual environment:
+
+    - On Windows:
+
+        ```bash
+        venv\Scripts\activate
+        ```
+
+    - On macOS/Linux:
+
+        ```bash
+        source venv/bin/activate
+        ```
+
+5. Install project dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-## Usage
-
-1. Run the Flask app:
+6. Clone YOLOv5:
 
     ```bash
-    python app.py
+    git clone https://github.com/ultralytics/yolov5  # clone
+    cd yolov5
+    pip install -r requirements.txt  # install
     ```
 
-2. Open a web browser and go to `http://127.0.0.1:5000` to access the application.
+## Usage
 
-3. Upload an image containing license plates or faces to detect and recognize them.
+1. Navigate to the project directory:
+
+    ```bash
+    cd LicensePlateRecognitionWebApp
+    ```
+
+2. Open the project folder in VSCode.
+
+3. Activate the virtual environment:
+
+    - On Windows:
+
+        ```bash
+        venv\Scripts\activate
+        ```
+
+    - On macOS/Linux:
+
+        ```bash
+        source venv/bin/activate
+        ```
+
+4. Run the Flask app:
+
+    ```bash
+    python App.py
+    ```
+
+Now, you can use your web browser to access the application at `http://localhost:5000`.
 
 ## Screenshots
 
