@@ -58,27 +58,3 @@ yolov3-tiny.conv.15
 /yolov5/*.pyc
 /yolov5/*.pyo
 /yolov5/*.pyd
-
-
-#files stored auto
-/static/*.jpg
-/static/faces/cropped/*.jpg
-/static/faces/detected/*.jpg
-/static/predict/rexs/*.jpg
-/static/predict/roi/*.jpg
-/static/predict/upload/*.jpg
-/numberplate_reader3/runs/rexs1/*.jpg
-/numberplate_reader3/runs/rexs/*.jpg
-/numberplate_inference/runs/rexs/*.jpg
-/numberplate_inference/runs/rexs1/*.jpg
-/static/roi/*.jpg
-/static/roi/*.jpeg
-/static/upload/*.jpg
-/static/upload/*.JPG
-/static/upload/*.jpeg
-/static/predict/*.jpeg
-
-/static/predict/*.jpg
-/static/predict/*.png
-/static/upload/*.jpg
-/static/upload/*.png
